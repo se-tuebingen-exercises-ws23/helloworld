@@ -7,7 +7,7 @@ def sayHello = {
   val name = readLine()
 
   val greeting =
-    s"""Hi there, ${name}, nice to see you
+    s"""Hi there, ${name}, nice to see you!
       |
       |Seems like you have all dependencies set up correctly!
       |Apparently, this application is running on ${os} with JDK ${jdkVersion}!
